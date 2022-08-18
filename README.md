@@ -1,5 +1,4 @@
-# todo
-ToDo List API
+# ToDo List API
 
 Estrutura da API
 
@@ -38,6 +37,7 @@ Estrutura da API
 
 * Migrações
 > python manage.py makemigrations
+
 > python manage.py migrate
 
 
