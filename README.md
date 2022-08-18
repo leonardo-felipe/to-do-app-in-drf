@@ -1,9 +1,10 @@
 # todo
+ToDo List API
 
 Estrutura da API
 
 /admin     - Admin
- 
+/tasks     - Tasks 
  
 ## Principais tecnologias utilizadas
  
@@ -35,8 +36,10 @@ Estrutura da API
 * Instalar dependências
 > pip install -r requirements.txt
 
-* Migrations
+* Migrações
+> python manage.py makemigrations
 > python manage.py migrate
+
 
 * Rodar o projeto
 > python manage.py runserver
