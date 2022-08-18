@@ -1,12 +1,7 @@
-from rest_framework.views import APIView 
-from rest_framework.response import Response
+from rest_framework.generics import ListCreateAPIView
 from tasks.models import Task
 from tasks.serializers import TaskSerializer
 
-
-class TaskAPIView(APIView):
-    
-    def get(self, request):
-        title = Task.objects.all()
-        serializer = TaskSerializer(title, many=True)
-        return Response(serializer.data)
+class TaskAPIView(ListCreateAPIView):
+    queryset = Task.objects.all()
+    serializer_class = TaskSerializer
