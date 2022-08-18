@@ -17,7 +17,7 @@ Estrutura da API
 >    https://www.python.org/downloads/
 
 * Clonar o repositório com git clone
-> git clone git@github.com:leonardo-felipe/todo.git
+ git clone git@github.com:leonardo-felipe/todo.git
 
 * Ir até a pasta do projeto
 
